@@ -20,10 +20,10 @@ function sendEmail(){
     const templateID="template_nigzqvc";
     emailjs.send(serviceID,templateID,params)
     .then((res)=>{
-            document.getElementById("name").value=" ";
-            document.getElementById("email").value=" ";
-            document.getElementById("phone").value=" ";
-            document.getElementById("mess").value=" ";
+            document.getElementById("name").value;
+            document.getElementById("email").value;
+            document.getElementById("phone").value;
+            document.getElementById("mess").value;
             console.log(res);
             alert("Your message has been sent successfully");
  }).catch((err)=>console.log(err));
